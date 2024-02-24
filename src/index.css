@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Product Sans';
+    src: local('Product Sans'), url('https://fonts.googleapis.com/css2?family=Product+Sans:wght@400;700&display=swap') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  body{font-family: 'Product Sans';}
+.autocomplete-input {
+    position: absolute;
+    top: 12px;
+    left: 230px;
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.5); 
+    transition: background-color 0.3s, border 0.3s, color 0.3s; 
+  }
+  .autocomplete-input:hover {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 1); 
+    transition: background-color 0.3s, border 0.3s, color 0.3s; 
+  }
+  
+  
+  .autocomplete-input2 {
+    position: absolute;
+    top: 12px; 
+    left: 460px;
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: background-color 0.3s, border 0.3s; 
+  }
+  
+  .autocomplete-input2:hover {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s, border 0.3s; 
+  }
+  
+  .distance-container {
+    position: absolute;
+    top: 93px;
+    right: 88%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 8px;
+    border-radius: 5px;
+    z-index: 1000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
